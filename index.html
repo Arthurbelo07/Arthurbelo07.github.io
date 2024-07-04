@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Repositório do Arthur</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #fff;
+          color: #000;
+          transition: background-color 0.5s, color 0.5s;
+      }
+
+      @media (prefers-color-scheme: dark) {
+          body {
+              background-color: #333;
+              color: #fff;
+          }
+      }
+  </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+      
+        
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer light" />
+          <img src="assets/menu_escuro.svg" alt="menu" class="burguer dark" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Olá! Meu nome é Arthur Maraschi Da Silva</h1>
+        <p>
+          Atualmente, estou cursando Informática na Escola Técnica Cedup. 
+          O curso oferece uma base sólida em tecnologias de computação, 
+          incluindo programação, redes, e manutenção de hardware. 
+        </p>
+      
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          
+          <img src="assets/abstract.svg" alt="background" class="background" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Projetos em Destaque</h2>
+        <p>
+           Aqui estão alguns dos meus trabalhos mais recentes.
+        </p>
+      </div>
+      <ul>
+        <li>
+          <div class="image">
+            <img src="assets/formulario.png" alt="Gerenciamento de tarefas" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              validação Formulário
+            </h3>
+            <a href="projetos/validaçãoformulario/index.html">&rarr; Clique aqui para ver mais!</a>
+            <p>Feito pelo aluno: Arthur Maraschi Da Silva</p>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/animacaoblocos.png" alt="marmotas" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+            Animação Blocos
+            </h3>
+            <a href="projetos/AnimaçãoBlocos/anima.html">&rarr; Clique aqui para ver mais!</a>
+            <p>Feito pelo aluno: Arthur Maraschi Da Silva</p>
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="assets/mqtt.png" alt="calculadora" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              MQTT
+            </h3>
+            <a href="projetos/Mqtt/mqtt.html">&rarr; Clique aqui para ver mais!</a>
+            <p>Feito pelo aluno: Arthur Maraschi Da Silva</p>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/steamcopia.png" alt="The New York Times" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Site The New York Times
+            </h3>
+            <a href="projetos/steamcopia/index.html">&rarr; Clique aqui para ver mais!</a>
+            <p>Feito pelo aluno: Arthur , Elias , Filipi </p>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/bananascliker.png" alt="animação-jquery" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Animação com jquery
+            </h3>
+            <a href="projetos/banana/banana.html">&rarr; Clique aqui para ver mais!</a>
+            <p>Feito pelo aluno: Arthur Maraschi Da Silva</p>
+          </div>
+        </li>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Alguma dúvida?</h2>
+        <p class="mb-m">
+          Ficarei feliz em saber mais sobre seus projetos e como posso contribuir!
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">arthur.trilha01.2023@gmail.com</span>
+          <span>47 991028970</span>
+        </div>
+        <ul class="mb-l">
+          <li>
+            <a href="https://www.instagram.com/arthurmaraschi54/"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Arthurbelo07/Portfolio"><img src="assets/logogit.png" alt="Git-Hub" width=40 height="40"/></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          &copy; 2023 Arthur Maraschi Da Silva.  Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
